@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>266994552776-db5047fnsh5m190skcprm32mq29clde0.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.266994552776-db5047fnsh5m190skcprm32mq29clde0</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCXT-0B4b8Lp7_VtTVypp6ocKrgviIz16o</string>
+	<key>GCM_SENDER_ID</key>
+	<string>266994552776</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>sdh.Plannar</string>
+	<key>PROJECT_ID</key>
+	<string>plannar-6eeb0</string>
+	<key>STORAGE_BUCKET</key>
+	<string>plannar-6eeb0.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:266994552776:ios:611d6d5444f6b4f56cfafd</string>
+	<key>DATABASE_URL</key>
+	<string>https://plannar-6eeb0.firebaseio.com</string>
+</dict>
+</plist>

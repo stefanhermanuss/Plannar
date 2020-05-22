@@ -3,27 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		272F8D71672F6E2A8C489717 /* Pods_Plannar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9322C6A0E0A1A881AA5D76BF /* Pods_Plannar.framework */; };
 		F8688C532474EAA3004CAF7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8688C522474EAA3004CAF7F /* AppDelegate.swift */; };
-		F8688C552474EAA3004CAF7F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8688C542474EAA3004CAF7F /* SceneDelegate.swift */; };
-		F8688C572474EAA3004CAF7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8688C562474EAA3004CAF7F /* ViewController.swift */; };
+		F8688C572474EAA3004CAF7F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8688C562474EAA3004CAF7F /* LoginViewController.swift */; };
 		F8688C5A2474EAA3004CAF7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8688C582474EAA3004CAF7F /* Main.storyboard */; };
 		F8688C5C2474EAAA004CAF7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8688C5B2474EAAA004CAF7F /* Assets.xcassets */; };
 		F8688C5F2474EAAA004CAF7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8688C5D2474EAAA004CAF7F /* LaunchScreen.storyboard */; };
+		F8688C672474EB15004CAF7F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F8688C662474EB15004CAF7F /* GoogleService-Info.plist */; };
+		F8A8A6632474F23E00E6009A /* bookWallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F8A8A6622474F23E00E6009A /* bookWallpaper.jpg */; };
+		F8A8A6662474F3D900E6009A /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A8A6652474F3D900E6009A /* Style.swift */; };
+		F8A8A6682474F40900E6009A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A8A6672474F40900E6009A /* Constants.swift */; };
+		F8A8A66A2474F43200E6009A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A8A6692474F43200E6009A /* HomeViewController.swift */; };
+		F8D9B6B224774D7A00AAE873 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D9B6B124774D7A00AAE873 /* MainNavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		59312C9EE4F0CC84A6F8A4ED /* Pods-Plannar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plannar.release.xcconfig"; path = "Target Support Files/Pods-Plannar/Pods-Plannar.release.xcconfig"; sourceTree = "<group>"; };
+		9322C6A0E0A1A881AA5D76BF /* Pods_Plannar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Plannar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0A8BC1586FDC9B9302295E6 /* Pods-Plannar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plannar.debug.xcconfig"; path = "Target Support Files/Pods-Plannar/Pods-Plannar.debug.xcconfig"; sourceTree = "<group>"; };
 		F8688C4F2474EAA3004CAF7F /* Plannar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Plannar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8688C522474EAA3004CAF7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F8688C542474EAA3004CAF7F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F8688C562474EAA3004CAF7F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F8688C562474EAA3004CAF7F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		F8688C592474EAA3004CAF7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F8688C5B2474EAAA004CAF7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8688C5E2474EAAA004CAF7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F8688C602474EAAA004CAF7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8688C662474EB15004CAF7F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F8A8A6622474F23E00E6009A /* bookWallpaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bookWallpaper.jpg; sourceTree = "<group>"; };
+		F8A8A6652474F3D900E6009A /* Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
+		F8A8A6672474F40900E6009A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F8A8A6692474F43200E6009A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F8D9B6B124774D7A00AAE873 /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				272F8D71672F6E2A8C489717 /* Pods_Plannar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		249935550D604E4DD49C5C35 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D0A8BC1586FDC9B9302295E6 /* Pods-Plannar.debug.xcconfig */,
+				59312C9EE4F0CC84A6F8A4ED /* Pods-Plannar.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A470CED9EBD9696C4EDA8C3D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9322C6A0E0A1A881AA5D76BF /* Pods_Plannar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F8688C462474EAA3004CAF7F = {
 			isa = PBXGroup;
 			children = (
 				F8688C512474EAA3004CAF7F /* Plannar */,
 				F8688C502474EAA3004CAF7F /* Products */,
+				249935550D604E4DD49C5C35 /* Pods */,
+				A470CED9EBD9696C4EDA8C3D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +90,28 @@
 		F8688C512474EAA3004CAF7F /* Plannar */ = {
 			isa = PBXGroup;
 			children = (
+				F8A8A6642474F3CA00E6009A /* Assistants */,
 				F8688C522474EAA3004CAF7F /* AppDelegate.swift */,
-				F8688C542474EAA3004CAF7F /* SceneDelegate.swift */,
-				F8688C562474EAA3004CAF7F /* ViewController.swift */,
+				F8688C562474EAA3004CAF7F /* LoginViewController.swift */,
 				F8688C582474EAA3004CAF7F /* Main.storyboard */,
 				F8688C5B2474EAAA004CAF7F /* Assets.xcassets */,
 				F8688C5D2474EAAA004CAF7F /* LaunchScreen.storyboard */,
+				F8688C662474EB15004CAF7F /* GoogleService-Info.plist */,
 				F8688C602474EAAA004CAF7F /* Info.plist */,
+				F8A8A6622474F23E00E6009A /* bookWallpaper.jpg */,
+				F8A8A6692474F43200E6009A /* HomeViewController.swift */,
+				F8D9B6B124774D7A00AAE873 /* MainNavigationController.swift */,
 			);
 			path = Plannar;
+			sourceTree = "<group>";
+		};
+		F8A8A6642474F3CA00E6009A /* Assistants */ = {
+			isa = PBXGroup;
+			children = (
+				F8A8A6652474F3D900E6009A /* Style.swift */,
+				F8A8A6672474F40900E6009A /* Constants.swift */,
+			);
+			path = Assistants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +121,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F8688C632474EAAA004CAF7F /* Build configuration list for PBXNativeTarget "Plannar" */;
 			buildPhases = (
+				2838103563D08778A0BF5960 /* [CP] Check Pods Manifest.lock */,
 				F8688C4B2474EAA3004CAF7F /* Sources */,
 				F8688C4C2474EAA3004CAF7F /* Frameworks */,
 				F8688C4D2474EAA3004CAF7F /* Resources */,
+				CCA96E412A3B8644CE91EDF9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,21 +175,68 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8688C5F2474EAAA004CAF7F /* LaunchScreen.storyboard in Resources */,
+				F8688C672474EB15004CAF7F /* GoogleService-Info.plist in Resources */,
 				F8688C5C2474EAAA004CAF7F /* Assets.xcassets in Resources */,
 				F8688C5A2474EAA3004CAF7F /* Main.storyboard in Resources */,
+				F8A8A6632474F23E00E6009A /* bookWallpaper.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2838103563D08778A0BF5960 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Plannar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCA96E412A3B8644CE91EDF9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Plannar/Pods-Plannar-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Plannar/Pods-Plannar-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Plannar/Pods-Plannar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F8688C4B2474EAA3004CAF7F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8688C572474EAA3004CAF7F /* ViewController.swift in Sources */,
+				F8D9B6B224774D7A00AAE873 /* MainNavigationController.swift in Sources */,
+				F8A8A6682474F40900E6009A /* Constants.swift in Sources */,
+				F8688C572474EAA3004CAF7F /* LoginViewController.swift in Sources */,
 				F8688C532474EAA3004CAF7F /* AppDelegate.swift in Sources */,
-				F8688C552474EAA3004CAF7F /* SceneDelegate.swift in Sources */,
+				F8A8A6662474F3D900E6009A /* Style.swift in Sources */,
+				F8A8A66A2474F43200E6009A /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,11 +378,13 @@
 		};
 		F8688C642474EAAA004CAF7F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0A8BC1586FDC9B9302295E6 /* Pods-Plannar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SV9FZG54KW;
 				INFOPLIST_FILE = Plannar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,11 +398,13 @@
 		};
 		F8688C652474EAAA004CAF7F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59312C9EE4F0CC84A6F8A4ED /* Pods-Plannar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SV9FZG54KW;
 				INFOPLIST_FILE = Plannar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
